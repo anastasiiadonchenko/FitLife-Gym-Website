@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitGym - Premium Fitness Experience</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/animations.js" defer></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#" class="logo">FitGym</a>
+            <button class="mobile-menu-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title animate-in">UNLEASH YOUR POTENTIAL</h1>
+            <p class="hero-description animate-in">Elite training facility for those who demand excellence. Join us and transform your life through fitness.</p>
+            <a href="#contact" class="button animate-in">Start Your Journey</a>
+        </div>
+        <video autoplay loop muted playsinline class="background-video">
+            <source src="assets/videos/hero-bg.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="grid">
+            <div class="grid-item">
+                <h2>Our Story</h2>
+                <p>Founded by elite athletes and trainers, FitGym is more than just a gym - it's a community dedicated to excellence.</p>
+            </div>
+            <div class="grid-item">
+                <h2>Our Mission</h2>
+                <p>To provide an unparalleled fitness experience that pushes boundaries and transforms lives.</p>
+            </div>
+            <div class="grid-item">
+                <h2>Our Method</h2>
+                <p>Combining cutting-edge training techniques with personalized attention to help you achieve your goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="section">
+        <div class="container">
+            <h2 class="section-title">Elite Training Programs</h2>
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>Strength & Conditioning</h3>
+                    <p>Build power, endurance, and functional strength through our comprehensive program.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>HIIT</h3>
+                    <p>High-intensity interval training designed to maximize calorie burn and improve cardiovascular fitness.</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Boxing</h3>
+                    <p>Learn proper technique while getting an intense full-body workout.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trainers Section -->
+    <section id="trainers" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Trainers</h2>
+            <div class="grid">
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="assets/images/John Doe.jpg" alt="John Doe">
+                    </div>
+                    <h3>John Doe</h3>
+                    <p>Strength & Conditioning</p>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="assets/images/motivation.jpg" alt="Jane Smith">
+                    </div>
+                    <h3>Jane Smith</h3>
+                    <p>Boxing Coach</p>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="assets/images/7.jpg" alt="Mike Johnson">
+                    </div>
+                    <h3>Mike Johnson</h3>
+                    <p>HIIT Expert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Your Phone (optional)">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid">
+                <div class="grid-item">
+                    <h3>Location</h3>
+                    <p>123 Fitness Street<br>New York, NY 10001</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Hours</h3>
+                    <p>Mon-Fri: 6am - 10pm<br>Sat-Sun: 8am - 8pm</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Contact</h3>
+                    <p>Phone: (555) 123-4567<br>Email: info@fitgym.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
