@@ -91,4 +91,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - GSAP for the smooth animations
 - Font Awesome for the icons
-- Google Maps for location integration
