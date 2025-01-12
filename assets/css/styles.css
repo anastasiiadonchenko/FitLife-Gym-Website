@@ -761,4 +761,30 @@ h2 {
     .trainer-image {
         height: 300px;
     }
+    /* Fix for the hero section being cut off on mobile devices */
+.hero {
+    height: 100vh; /* Set height to 100% of the viewport height */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange elements vertically */
+    justify-content: center; /* Center elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center; /* Align text to the center */
+    padding: 20px; /* Add padding around the content */
+}
+
+@media (max-width: 768px) {
+    /* Adjust text size for smaller screens */
+    .hero h1 {
+        font-size: 1.8rem; /* Reduce font size for the main heading */
+    }
+
+    .hero p {
+        font-size: 1rem; /* Reduce font size for the paragraph */
+    }
+
+    .hero {
+        padding: 15px; /* Add smaller padding for mobile devices */
+    }
+}
+
 }
