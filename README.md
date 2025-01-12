@@ -2,9 +2,9 @@
 
 A modern, responsive website for a fitness gym built with HTML, CSS, and JavaScript.
 
-## Live Demo
+## Live Demo 🌐
+[View Live Demo](https://anastasiiadonchenko.github.io/FitLife-Gym-Website/)
 
-🌐 [View Live Demo](https://anastasiiadonchenko.github.io/fitness-gym/)
 
 ## Features
 
